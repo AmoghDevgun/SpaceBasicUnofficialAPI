@@ -14,6 +14,6 @@ This repository contains automation scripts for interacting with the SpaceBasic 
 - Creates a new room/bathroom cleaning complaint with your preferred time slot
 
 **Usage:**
-1. Fill in your personal information in the configuration section
+1. Fill in your personal information in the configuration section, by creating a complaint on spacebasic app and intercepting response to `https://api.spacebasic.com/api/v3/complaints/add`
 2. Run the script: `python roomBathroomCleaning.py`
 3. Select an available time slot when prompted
